@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    example1::app::app_main();
 }
