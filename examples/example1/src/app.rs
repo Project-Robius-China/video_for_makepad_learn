@@ -52,6 +52,7 @@ impl AppMain for App {
         self.match_event(cx, event);
         self.ui.handle_event(cx, event, &mut Scope::empty());
     }
+    
 }
 
 app_main!(App);
