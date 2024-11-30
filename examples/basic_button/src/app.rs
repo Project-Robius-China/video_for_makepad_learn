@@ -3,9 +3,12 @@ use makepad_widgets::*;
 use crate::button::{BasicButtonEvent, BasicButtonWidgetRefExt};
 
 live_design! {
-    import makepad_widgets::base::*;
-    import makepad_widgets::theme_desktop_dark::*;
-    import crate::button::BasicButton;
+    // import makepad_widgets::base::*;
+    // import makepad_widgets::theme_desktop_dark::*;
+    // import crate::button::BasicButton;
+    use link::widgets::*;
+    use link::theme::*;
+    use crate::button::BasicButton;
 
     App = {{App}}{
         ui : <Root>{

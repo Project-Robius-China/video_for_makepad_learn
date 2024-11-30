@@ -1,9 +1,16 @@
 use makepad_widgets::*;
 
 live_design! {
-    import makepad_widgets::base::*;
-    import makepad_widgets::theme_desktop_dark::*;
-    import crate::views::my_button::MyButton;
+    // import makepad_widgets::theme_desktop_dark::*;
+    use link::theme::*;
+    // import makepad_widgets::base::*;
+    use link::widgets::*;
+    // import makepad_draw::shader::std::*;
+    use link::shaders::*;
+    // import crate::views::my_button::MyButton;
+    // use crate::views::my_button::MyButton;
+
+
     App = {{App}}{
         ui : <Root>{
             main_window = <Window>{

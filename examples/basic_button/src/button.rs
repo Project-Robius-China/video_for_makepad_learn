@@ -1,7 +1,7 @@
 use makepad_widgets::*;
 
 live_design! {
-    BasicButton = {{BasicButton}}{
+    pub BasicButton = {{BasicButton}}{
 
     }
 }
