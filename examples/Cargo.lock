@@ -186,6 +186,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "link_keyword"
+version = "0.1.0"
+dependencies = [
+ "makepad-widgets",
+]
+
+[[package]]
 name = "log"
 version = "0.4.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"

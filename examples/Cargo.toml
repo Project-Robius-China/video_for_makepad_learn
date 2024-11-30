@@ -1,2 +1,2 @@
 [workspace]
-members = [ "basic_button","example1"]
+members = [ "basic_button","example1", "link_keyword"]
